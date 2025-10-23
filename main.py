@@ -205,7 +205,7 @@ def delete_string(string_value: str):
     if not record:  # If not found, raise 404 error
         raise HTTPException(status_code=404, detail="String does not exist in the system")
     del db[record["id"]]  # Delete record from storage by hash key
-    return {}  # Return empty response with 204 status
+    return {}  # Return empty response with 204 status.
     
 
         
