@@ -207,7 +207,9 @@ def delete_string(string_value: str):
     del db[record["id"]]  # Delete record from storage by hash key
     return {}  # Return empty response with 204 status.
     
-
+if __name__ == "__main__":
+    import uvicorn
+    uvicorn.run(app, host="0.0.0.0", port=8000)
         
     
     
