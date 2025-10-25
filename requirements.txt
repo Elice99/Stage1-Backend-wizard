@@ -13,3 +13,6 @@ typing==3.7.4.3
 typing-inspection==0.4.2
 typing_extensions==4.15.0
 zope.interface==8.0.1
+fastapi==0.104.1
+uvicorn==0.24.0
+httpx==0.25.2
